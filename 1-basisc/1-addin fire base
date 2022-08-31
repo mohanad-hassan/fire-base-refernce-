@@ -1,0 +1,10 @@
+// npm install firebase.
+//import {intializeApp} from 'firebase/app'.
+//const fireBaseApp = initializeApp(informations you got when create a project).
+//then import services.
+// import{getAuth} from 'firebase/auth'.
+// import{getFireStore} from 'firebase/firestore'.
+//const auth = getAuth(fireBaseAPP).
+//const db  = getFireStore (fireBaseAPP).
+//you have to create the fire store in step1 before any thing else.
+//
