@@ -1,10 +1,28 @@
-// npm install firebase.
-//import {intializeApp} from 'firebase/app'.
-//const fireBaseApp = initializeApp(informations you got when create a project).
-//then import services.
-// import{getAuth} from 'firebase/auth'.
-// import{getFireStore} from 'firebase/firestore'.
-//const auth = getAuth(fireBaseAPP).
-//const db  = getFireStore (fireBaseAPP).
-//you have to create the fire store in step1 before any thing else.
+create project with informations from the web site.
+//and the information into new js file in  react src 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyDe3kWnQnpBzN1bvhXO1gvpsMwKAZ0xrj4",
+    authDomain: "firecommerce-75bb9.firebaseapp.com",
+    projectId: "firecommerce-75bb9",
+    storageBucket: "firecommerce-75bb9.appspot.com",
+    messagingSenderId: "475336788131",
+    appId: "1:475336788131:web:fa91a4c6fddadd2eabd716",
+    measurementId: "G-7W941PXZMZ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const fireDB = getFirestore(app)
+export default fireDB
+
+//create fire store from the website .
 //
